@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm") version "1.4.30"
-    id("org.jetbrains.dokka") version "1.4.20"
+    kotlin("jvm") version "1.9.20"
+    id("org.jetbrains.dokka") version "1.9.20"
 }
 
 group = "com.hadiyarajesh"
@@ -22,7 +22,7 @@ sourceSets {
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3")
-    implementation("com.github.jkcclemens:khttp:-SNAPSHOT")
+    implementation("org.danilopianini:khttp:1.6.3")
     implementation("com.nfeld.jsonpathlite:json-path-lite:1.1.0")
     implementation("org.json:json:20180813")
 }
